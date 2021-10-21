@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+main{
+    width: 800px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: khaki;
+    text-align: center;
+}
+article{
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.lampa{
+    border: 1px solid black;
+    border-radius: 100%;
+}
